@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Página Web - HTML, CSS y JavaScript</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>Investigación sobre HTML, CSS y JavaScript</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>¿Qué es HTML?</h2>
+      <p>HTML (HyperText Markup Language) es el lenguaje que estructura el contenido de las páginas web.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML" />
+    </section>
+
+    <section>
+      <h2>¿Qué es CSS?</h2>
+      <p>CSS (Cascading Style Sheets) define la apariencia visual del contenido de una página web, como colores, fuentes y disposición.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Logo CSS" />
+    </section>
+
+    <section>
+      <h2>¿Qué es JavaScript?</h2>
+      <p>JavaScript es un lenguaje de programación que permite añadir interactividad a una página web, como botones, animaciones y validaciones.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Logo JavaScript" />
+    </section>
+
+    <section>
+      <h2>Ejemplo interactivo con JavaScript</h2>
+      <button onclick="saludar()">Haz clic aquí</button>
+      <p id="mensaje"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado por [Tu Nombre] - 2025</p>
+  </footer>
+
+  <script>
+    function saludar() {
+      document.getElementById("mensaje").innerText = "¡Hola! Este es un mensaje generado con JavaScript.";
+    }
+  </script>
+</body>
+</html>
